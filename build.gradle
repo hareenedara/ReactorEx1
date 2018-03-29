@@ -1,0 +1,15 @@
+group 'Samples'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url "http://repo-proxy.jpmchase.net/maven/content/groups/jpmc-public" }
+}
+
+dependencies {
+    compile 'io.projectreactor:reactor-core:+'
+
+}
